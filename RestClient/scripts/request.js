@@ -11,6 +11,6 @@ function makeServiceCall () {
 	
 	xmlhttp.open("GET","http://localhost:8080/RestSampleApplication/rest/message",true);
 	xmlhttp.setRequestHeader("Access-Control-Allow-Origin", "*");
-	xmlhttp.setRequestHeader("Content-Type","text/plain");
+	xmlhttp.setRequestHeader("Content-Type","text/html");
 	xmlhttp.send();	
 }
