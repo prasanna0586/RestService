@@ -25,4 +25,21 @@
 		<servlet-name>Jersey REST Service</servlet-name>
 		<url-pattern>/rest/*</url-pattern>
 	</servlet-mapping>
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>SendMessage</web-resource-name>
+			<url-pattern>/rest/message</url-pattern>
+			<http-method>GET</http-method>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>webservice</role-name>
+		</auth-constraint>
+	</security-constraint>
+	<login-config>
+		<auth-method>BASIC</auth-method>
+		<realm-name>ApplicationRealm</realm-name>
+	</login-config>
+	 <security-role>
+        <role-name>webservice</role-name>
+    </security-role>
 </web-app>
