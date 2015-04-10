@@ -4,6 +4,7 @@ import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.ext.Provider;
 
@@ -18,23 +19,24 @@ public class SendMessage extends ResourceConfig {
 	@GET
 	@Consumes(MediaType.TEXT_PLAIN)
 	@Produces(MediaType.TEXT_PLAIN)
-	public String sendATextMessage () {
-		message = "This is a sample text message";
+	public String sendATextMessage (@QueryParam("name") String name) {
+		message = "This is a sample text message " + name;
 		return message;
 	}
 	@GET
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public String sendAJSONMessage () {
+	public String sendAJSONMessage (@QueryParam("name") String name) {
 		JSONObject jsonObject = new JSONObject();
 		jsonObject.put("message", "This is a sample JSON Message");
+		jsonObject.put("name",name);
 		return jsonObject.toJSONString();
 	}
 	@GET
 	@Consumes(MediaType.TEXT_HTML)
 	@Produces(MediaType.TEXT_HTML)
-	public String sendAHTMLMessage () {
-		message = "<html><body>This is a sample HTML Document </body></html>";
+	public String sendAHTMLMessage (@QueryParam("name") String name) {
+		message = "<html><body>This is a sample HTML Document " + name + "</body></html>";
 		return message;
 	}
 }
