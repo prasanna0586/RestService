@@ -27,7 +27,7 @@
 	</servlet-mapping>
 	<security-constraint>
 		<web-resource-collection>
-			<web-resource-name>SendMessage</web-resource-name>
+			<web-resource-name>Get Request for Send Message Service</web-resource-name><!-- Any logical name can be given here -->
 			<url-pattern>/rest/message</url-pattern>
 			<http-method>GET</http-method>
 		</web-resource-collection>
@@ -37,7 +37,7 @@
 	</security-constraint>
 	<login-config>
 		<auth-method>BASIC</auth-method>
-		<realm-name>ApplicationRealm</realm-name>
+		<realm-name>ApplicationRealm</realm-name> <!-- Optional -->
 	</login-config>
 	 <security-role>
         <role-name>webservice</role-name>
