@@ -32,7 +32,7 @@ public class SendMessage extends ResourceConfig {
 	@POST
 	@Consumes(MediaType.TEXT_PLAIN)
 	@Produces(MediaType.TEXT_PLAIN)
-	public String sendAPostMessage (@FormParam("name") String name) {
+	public String sendAPostMessage (String name) {
 		message = "This is a post text message" + name;
 		return message;
 	}
