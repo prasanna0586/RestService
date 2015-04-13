@@ -11,9 +11,10 @@ public class JerseyRestClient {
 
 	public static void main(String[] args) {
 		Client client = ClientBuilder.newClient();
-		WebTarget webTarget = client.target("http://192.168.7.53:81/RestSampleApplication/rest/message");
-		webTarget.queryParam("name", "Lakshmi");
-		Invocation.Builder invocationBuilder = webTarget.request(MediaType.TEXT_PLAIN);
+		WebTarget webTarget = client.target("http://192.168.7.53:81/RestSampleApplication/rest");
+		WebTarget messageWebTarget = webTarget.path("message");
+		WebTarget messageWebTargetWithQueryParam = messageWebTarget.queryParam("name", "Lakshmi");
+		Invocation.Builder invocationBuilder = messageWebTargetWithQueryParam.request(MediaType.TEXT_PLAIN);
 		invocationBuilder.header("Authorization","Basic d2Vic2VydmljZXVzZXI6Q2hlbHNlYWZjQDA1ODY=");
 		Response response = invocationBuilder.get();
 		System.out.println(response.getStatus());
