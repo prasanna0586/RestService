@@ -27,12 +27,22 @@
 	</servlet-mapping>
 	<security-constraint>
 		<web-resource-collection>
-			<web-resource-name>Get Request for Send Message Service</web-resource-name> <!-- Any logical name can be given here -->
+			<web-resource-name>Send Message Service</web-resource-name> <!-- Any logical name can be given here -->
 			<url-pattern>/rest/message</url-pattern>
 			<http-method>GET</http-method>
 			<http-method>POST</http-method>
 			<http-method>PUT</http-method>
 			<http-method>DELETE</http-method>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>webservice</role-name>
+		</auth-constraint>
+	</security-constraint>
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>Arithmetic Service</web-resource-name> <!-- Any logical name can be given here -->
+			<url-pattern>/rest/arithmetic</url-pattern>
+			<http-method>GET</http-method>
 		</web-resource-collection>
 		<auth-constraint>
 			<role-name>webservice</role-name>
