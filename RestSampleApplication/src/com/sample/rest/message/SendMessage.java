@@ -13,6 +13,7 @@ import javax.ws.rs.core.MediaType;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.json.simple.JSONObject;
 
+
 //@Provider annotation is not needed in the Service Class
 @Path(value = "/message")
 public class SendMessage extends ResourceConfig {
@@ -24,6 +25,7 @@ public class SendMessage extends ResourceConfig {
 	@Produces(MediaType.TEXT_PLAIN)
 	public String sendATextMessage (@QueryParam("name") String name) {
 		message = "This is a sample text message " + name;
+		System.out.println("Inside sendATextMessage service");
 		return message;
 	}
 

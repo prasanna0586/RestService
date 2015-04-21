@@ -14,11 +14,13 @@ public class CorsFilter implements ContainerResponseFilter {
 
 	@Override
 	public void filter(ContainerRequestContext requestContext, ContainerResponseContext responseContext) throws IOException {
+		System.out.println("CorsFilter entry");
 		responseContext.getHeaders().putSingle("Access-Control-Allow-Origin", "*");
 		responseContext.getHeaders().putSingle("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE");
 		List<String> reqHead = requestContext.getHeaders().get("Access-Control-Request-Headers");
 		if(reqHead != null){
 			responseContext.getHeaders().put("Access-Control-Allow-Headers", new ArrayList<Object>(reqHead));
 		}
+		System.out.println("CorsFilter exit");
 	}
 }
