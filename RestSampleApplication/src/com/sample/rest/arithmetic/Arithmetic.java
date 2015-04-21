@@ -8,11 +8,10 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
-import javax.ws.rs.ext.Provider;
 
 import org.glassfish.jersey.server.ResourceConfig;
 
-@Provider
+
 @Path(value = "/arithmetic")
 public class Arithmetic extends ResourceConfig {
 

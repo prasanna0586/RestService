@@ -9,12 +9,11 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
-import javax.ws.rs.ext.Provider;
 
 import org.glassfish.jersey.server.ResourceConfig;
 import org.json.simple.JSONObject;
 
-@Provider
+//@Provider annotation is not needed in the Service Class
 @Path(value = "/message")
 public class SendMessage extends ResourceConfig {
 
