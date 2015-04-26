@@ -1,0 +1,1306 @@
+18:35:35,110 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final-redhat-1
+18:35:37,005 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+18:35:37,163 INFO  [org.jboss.as] (MSC service thread 1-7) JBAS015899: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) starting
+18:35:37,170 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\tools\jboss-eap-6.3\jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.7.0_25\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.7.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.7.0_25\jre
+	java.io.tmpdir = C:\Users\PRASAN~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.7.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/lib/amd64;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Users\prasannakumarr\AppData\Local\GitHub\PortableGit_7eaa994416ae7b397b2628033ac45f8ff6ac2010\bin;C:\Program Files (x86)\nodejs\;C:\Users\prasannakumarr\AppData\Roaming\npm;C:\Program Files\OpenVPN\bin;D:\profile\Apache24\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\Java\jdk1.7.0_25\bin;D:\profile\Software\MySQL\Extracted\mysql-advanced-5.6.22-winx64\bin;D:\profile\android-sdks\tools;D:\path;C:\ProgramData\chocolatey\bin;;D:\profile\eclipse\eclipse-jee-luna-SR1-win32-x86_64\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0_25-b17
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_25
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 23.25-b01
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = D:\tools\jboss-eap-6.3
+	jboss.host.name = pc1577
+	jboss.modules.dir = D:\tools\jboss-eap-6.3\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pc1577
+	jboss.qualified.host.name = pc1577
+	jboss.server.base.dir = D:\tools\jboss-eap-6.3\standalone
+	jboss.server.config.dir = D:\tools\jboss-eap-6.3\standalone\configuration
+	jboss.server.data.dir = D:\tools\jboss-eap-6.3\standalone\data
+	jboss.server.deploy.dir = D:\tools\jboss-eap-6.3\standalone\data\content
+	jboss.server.log.dir = D:\tools\jboss-eap-6.3\standalone\log
+	jboss.server.name = pc1577
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\tools\jboss-eap-6.3\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/D:/tools/jboss-eap-6.3/standalone/configuration/logging.properties
+	module.path = D:/tools/jboss-eap-6.3/modules
+	org.jboss.boot.log.file = D:/tools/jboss-eap-6.3/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: JBoss Enterprise Application Platform 6.1+
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.7.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_25\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.7.0_25\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp D:/tools/jboss-eap-6.3/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=D:\tools\jboss-eap-6.3\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = D:\tools\jboss-eap-6.3\bin
+	user.home = C:\Users\prasannakumarr
+	user.language = en
+	user.name = prasannakumarr
+	user.script = 
+	user.timezone = Asia/Calcutta
+	user.variant = 
+18:35:37,172 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: JBoss Enterprise Application Platform 6.1+ -Xms1024m -Xmx1024m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=D:/tools/jboss-eap-6.3/standalone/log/boot.log -Dlogging.configuration=file:/D:/tools/jboss-eap-6.3/standalone/configuration/logging.properties -Djboss.home.dir=D:/tools/jboss-eap-6.3 -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+18:35:42,553 INFO  [org.xnio] (MSC service thread 1-7) XNIO Version 3.0.10.GA-redhat-1
+18:35:42,561 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.0.10.GA-redhat-1
+18:35:42,562 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+18:35:42,669 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version (unknown)
+18:35:42,747 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 44) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+18:35:42,758 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 35) JBAS012605: Activated the following JSF Implementations: [main, 1.2]
+18:35:42,774 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 42) JBAS013171: Activating Security Subsystem
+18:35:42,798 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 46) JBAS015537: Activating WebServices Extension
+18:35:42,804 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 37) JBAS011800: Activating Naming Subsystem
+18:35:42,821 INFO  [org.jboss.as.security] (MSC service thread 1-6) JBAS013170: Current PicketBox version=4.0.19.SP8-redhat-1
+18:35:42,832 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 29) JBAS010280: Activating Infinispan subsystem.
+18:35:42,884 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-8) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.26.Final-redhat-1)
+18:35:44,212 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 25) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+18:35:44,258 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+18:35:44,260 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) JBAS015400: Bound mail session [java:jboss/mail/Default]
+18:35:44,382 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-4) JBWEB003001: Coyote HTTP/1.1 initializing on : http-localhost/127.0.0.1:8080
+18:35:44,387 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-4) JBWEB003000: Coyote HTTP/1.1 starting on: http-localhost/127.0.0.1:8080
+18:35:45,519 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+18:35:47,221 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015012: Started FileSystemDeploymentService for directory D:\tools\jboss-eap-6.3\standalone\deployments
+18:35:47,249 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) JBAS017100: Listening on 127.0.0.1:9999
+18:35:47,277 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "RestSampleApplicationEAR.ear" (runtime-name: "RestSampleApplicationEAR.ear")
+18:35:47,293 INFO  [org.jboss.as.remoting] (MSC service thread 1-7) JBAS017100: Listening on 127.0.0.1:4447
+18:35:47,741 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.0.Final-redhat-3
+18:35:48,029 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "null" (runtime-name: "RestSampleApplication.war")
+18:35:49,675 INFO  [org.jboss.web] (ServerService Thread Pool -- 53) JBAS018210: Register web context: /RestSampleApplication
+18:35:50,579 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 26) JBAS018559: Deployed "RestSampleApplicationEAR.ear" (runtime-name : "RestSampleApplicationEAR.ear")
+18:35:50,666 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+18:35:50,667 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+18:35:50,667 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) started in 17579ms - Started 223 of 261 services (61 services are lazy, passive or on-demand)
+18:39:26,512 INFO  [org.jboss.web] (ServerService Thread Pool -- 55) JBAS018224: Unregister web context: /RestSampleApplication
+18:39:26,685 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015877: Stopped deployment null (runtime-name: RestSampleApplication.war) in 169ms
+18:39:26,695 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015877: Stopped deployment RestSampleApplicationEAR.ear (runtime-name: RestSampleApplicationEAR.ear) in 172ms
+18:39:26,695 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015876: Starting deployment of "RestSampleApplicationEAR.ear" (runtime-name: "RestSampleApplicationEAR.ear")
+18:39:26,885 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015876: Starting deployment of "null" (runtime-name: "RestSampleApplication.war")
+18:39:27,243 INFO  [org.jboss.web] (ServerService Thread Pool -- 59) JBAS018210: Register web context: /RestSampleApplication
+18:39:27,765 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) JBAS018565: Replaced deployment "RestSampleApplicationEAR.ear" with deployment "RestSampleApplicationEAR.ear"
+18:39:33,825 INFO  [org.apache.catalina.core] (MSC service thread 1-6) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+18:39:33,825 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) JBWEB003075: Coyote HTTP/1.1 pausing on: http-localhost/127.0.0.1:8080
+18:39:33,825 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) JBWEB003077: Coyote HTTP/1.1 stopping on : http-localhost/127.0.0.1:8080
+18:39:33,835 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+18:39:33,835 INFO  [org.jboss.web] (ServerService Thread Pool -- 59) JBAS018224: Unregister web context: /RestSampleApplication
+18:39:33,876 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment null (runtime-name: RestSampleApplication.war) in 45ms
+18:39:33,876 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015877: Stopped deployment RestSampleApplicationEAR.ear (runtime-name: RestSampleApplicationEAR.ear) in 60ms
+18:39:33,886 INFO  [org.jboss.as] (MSC service thread 1-3) JBAS015950: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) stopped in 52ms
+18:39:36,792 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final-redhat-1
+18:39:36,952 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+18:39:37,012 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) starting
+18:39:37,022 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\tools\jboss-eap-6.3\jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.7.0_25\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.7.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.7.0_25\jre
+	java.io.tmpdir = C:\Users\PRASAN~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.7.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/lib/amd64;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Users\prasannakumarr\AppData\Local\GitHub\PortableGit_7eaa994416ae7b397b2628033ac45f8ff6ac2010\bin;C:\Program Files (x86)\nodejs\;C:\Users\prasannakumarr\AppData\Roaming\npm;C:\Program Files\OpenVPN\bin;D:\profile\Apache24\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\Java\jdk1.7.0_25\bin;D:\profile\Software\MySQL\Extracted\mysql-advanced-5.6.22-winx64\bin;D:\profile\android-sdks\tools;D:\path;C:\ProgramData\chocolatey\bin;;D:\profile\eclipse\eclipse-jee-luna-SR1-win32-x86_64\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0_25-b17
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_25
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 23.25-b01
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = D:\tools\jboss-eap-6.3
+	jboss.host.name = pc1577
+	jboss.modules.dir = D:\tools\jboss-eap-6.3\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pc1577
+	jboss.qualified.host.name = pc1577
+	jboss.server.base.dir = D:\tools\jboss-eap-6.3\standalone
+	jboss.server.config.dir = D:\tools\jboss-eap-6.3\standalone\configuration
+	jboss.server.data.dir = D:\tools\jboss-eap-6.3\standalone\data
+	jboss.server.deploy.dir = D:\tools\jboss-eap-6.3\standalone\data\content
+	jboss.server.log.dir = D:\tools\jboss-eap-6.3\standalone\log
+	jboss.server.name = pc1577
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\tools\jboss-eap-6.3\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/D:/tools/jboss-eap-6.3/standalone/configuration/logging.properties
+	module.path = D:/tools/jboss-eap-6.3/modules
+	org.jboss.boot.log.file = D:/tools/jboss-eap-6.3/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: JBoss Enterprise Application Platform 6.1+
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.7.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_25\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.7.0_25\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp D:/tools/jboss-eap-6.3/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=D:\tools\jboss-eap-6.3\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = D:\tools\jboss-eap-6.3\bin
+	user.home = C:\Users\prasannakumarr
+	user.language = en
+	user.name = prasannakumarr
+	user.script = 
+	user.timezone = Asia/Calcutta
+	user.variant = 
+18:39:37,022 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: JBoss Enterprise Application Platform 6.1+ -Xms1024m -Xmx1024m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=D:/tools/jboss-eap-6.3/standalone/log/boot.log -Dlogging.configuration=file:/D:/tools/jboss-eap-6.3/standalone/configuration/logging.properties -Djboss.home.dir=D:/tools/jboss-eap-6.3 -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+18:39:37,762 INFO  [org.xnio] (MSC service thread 1-5) XNIO Version 3.0.10.GA-redhat-1
+18:39:37,762 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+18:39:37,763 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.0.10.GA-redhat-1
+18:39:37,793 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version (unknown)
+18:39:37,803 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 37) JBAS011800: Activating Naming Subsystem
+18:39:37,803 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 35) JBAS012605: Activated the following JSF Implementations: [main, 1.2]
+18:39:37,813 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 44) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+18:39:37,813 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 42) JBAS013171: Activating Security Subsystem
+18:39:37,813 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 29) JBAS010280: Activating Infinispan subsystem.
+18:39:37,814 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 46) JBAS015537: Activating WebServices Extension
+18:39:37,839 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-1) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.26.Final-redhat-1)
+18:39:37,850 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013170: Current PicketBox version=4.0.19.SP8-redhat-1
+18:39:37,874 INFO  [org.jboss.as.naming] (MSC service thread 1-3) JBAS011802: Starting Naming Service
+18:39:37,875 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) JBAS015400: Bound mail session [java:jboss/mail/Default]
+18:39:37,895 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 25) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+18:39:38,146 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-4) JBWEB003001: Coyote HTTP/1.1 initializing on : http-localhost/127.0.0.1:8080
+18:39:38,178 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-4) JBWEB003000: Coyote HTTP/1.1 starting on: http-localhost/127.0.0.1:8080
+18:39:38,230 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+18:39:38,233 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.0.Final-redhat-3
+18:39:38,256 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) JBAS015012: Started FileSystemDeploymentService for directory D:\tools\jboss-eap-6.3\standalone\deployments
+18:39:38,266 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) JBAS017100: Listening on 127.0.0.1:4447
+18:39:38,269 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "RestSampleApplicationEAR.ear" (runtime-name: "RestSampleApplicationEAR.ear")
+18:39:38,287 INFO  [org.jboss.as.remoting] (MSC service thread 1-8) JBAS017100: Listening on 127.0.0.1:9999
+18:39:38,507 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "null" (runtime-name: "RestSampleApplication.war")
+18:39:39,223 INFO  [org.jboss.web] (ServerService Thread Pool -- 54) JBAS018210: Register web context: /RestSampleApplication
+18:39:39,733 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 26) JBAS018559: Deployed "RestSampleApplicationEAR.ear" (runtime-name : "RestSampleApplicationEAR.ear")
+18:39:39,844 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+18:39:39,844 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+18:39:39,844 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) started in 3342ms - Started 223 of 261 services (61 services are lazy, passive or on-demand)
+18:41:20,149 INFO  [org.jboss.web] (ServerService Thread Pool -- 55) JBAS018224: Unregister web context: /RestSampleApplication
+18:41:20,260 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment null (runtime-name: RestSampleApplication.war) in 110ms
+18:41:20,260 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015877: Stopped deployment RestSampleApplicationEAR.ear (runtime-name: RestSampleApplicationEAR.ear) in 113ms
+18:41:20,260 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "RestSampleApplicationEAR.ear" (runtime-name: "RestSampleApplicationEAR.ear")
+18:41:20,440 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "null" (runtime-name: "RestSampleApplication.war")
+18:41:20,790 INFO  [org.jboss.web] (ServerService Thread Pool -- 60) JBAS018210: Register web context: /RestSampleApplication
+18:41:21,440 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018565: Replaced deployment "RestSampleApplicationEAR.ear" with deployment "RestSampleApplicationEAR.ear"
+18:41:28,111 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+18:41:28,111 INFO  [org.apache.catalina.core] (MSC service thread 1-8) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+18:41:28,111 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-5) JBWEB003075: Coyote HTTP/1.1 pausing on: http-localhost/127.0.0.1:8080
+18:41:28,112 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-5) JBWEB003077: Coyote HTTP/1.1 stopping on : http-localhost/127.0.0.1:8080
+18:41:28,162 INFO  [org.jboss.web] (ServerService Thread Pool -- 60) JBAS018224: Unregister web context: /RestSampleApplication
+18:41:28,212 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015877: Stopped deployment null (runtime-name: RestSampleApplication.war) in 113ms
+18:41:28,222 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment RestSampleApplicationEAR.ear (runtime-name: RestSampleApplicationEAR.ear) in 117ms
+18:41:28,222 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015950: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) stopped in 112ms
+18:41:30,673 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final-redhat-1
+18:41:30,843 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+18:41:30,903 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) starting
+18:41:30,903 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\tools\jboss-eap-6.3\jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.7.0_25\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.7.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.7.0_25\jre
+	java.io.tmpdir = C:\Users\PRASAN~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.7.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/lib/amd64;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Users\prasannakumarr\AppData\Local\GitHub\PortableGit_7eaa994416ae7b397b2628033ac45f8ff6ac2010\bin;C:\Program Files (x86)\nodejs\;C:\Users\prasannakumarr\AppData\Roaming\npm;C:\Program Files\OpenVPN\bin;D:\profile\Apache24\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\Java\jdk1.7.0_25\bin;D:\profile\Software\MySQL\Extracted\mysql-advanced-5.6.22-winx64\bin;D:\profile\android-sdks\tools;D:\path;C:\ProgramData\chocolatey\bin;;D:\profile\eclipse\eclipse-jee-luna-SR1-win32-x86_64\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0_25-b17
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_25
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 23.25-b01
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = D:\tools\jboss-eap-6.3
+	jboss.host.name = pc1577
+	jboss.modules.dir = D:\tools\jboss-eap-6.3\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pc1577
+	jboss.qualified.host.name = pc1577
+	jboss.server.base.dir = D:\tools\jboss-eap-6.3\standalone
+	jboss.server.config.dir = D:\tools\jboss-eap-6.3\standalone\configuration
+	jboss.server.data.dir = D:\tools\jboss-eap-6.3\standalone\data
+	jboss.server.deploy.dir = D:\tools\jboss-eap-6.3\standalone\data\content
+	jboss.server.log.dir = D:\tools\jboss-eap-6.3\standalone\log
+	jboss.server.name = pc1577
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\tools\jboss-eap-6.3\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/D:/tools/jboss-eap-6.3/standalone/configuration/logging.properties
+	module.path = D:/tools/jboss-eap-6.3/modules
+	org.jboss.boot.log.file = D:/tools/jboss-eap-6.3/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: JBoss Enterprise Application Platform 6.1+
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.7.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_25\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.7.0_25\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp D:/tools/jboss-eap-6.3/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=D:\tools\jboss-eap-6.3\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = D:\tools\jboss-eap-6.3\bin
+	user.home = C:\Users\prasannakumarr
+	user.language = en
+	user.name = prasannakumarr
+	user.script = 
+	user.timezone = Asia/Calcutta
+	user.variant = 
+18:41:30,903 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: JBoss Enterprise Application Platform 6.1+ -Xms1024m -Xmx1024m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=D:/tools/jboss-eap-6.3/standalone/log/boot.log -Dlogging.configuration=file:/D:/tools/jboss-eap-6.3/standalone/configuration/logging.properties -Djboss.home.dir=D:/tools/jboss-eap-6.3 -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+18:41:31,645 INFO  [org.xnio] (MSC service thread 1-5) XNIO Version 3.0.10.GA-redhat-1
+18:41:31,645 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+18:41:31,646 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.0.10.GA-redhat-1
+18:41:31,676 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version (unknown)
+18:41:31,696 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 37) JBAS011800: Activating Naming Subsystem
+18:41:31,696 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 44) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+18:41:31,696 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 29) JBAS010280: Activating Infinispan subsystem.
+18:41:31,706 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 35) JBAS012605: Activated the following JSF Implementations: [main, 1.2]
+18:41:31,716 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 42) JBAS013171: Activating Security Subsystem
+18:41:31,716 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 46) JBAS015537: Activating WebServices Extension
+18:41:31,726 INFO  [org.jboss.as.naming] (MSC service thread 1-7) JBAS011802: Starting Naming Service
+18:41:31,726 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) JBAS015400: Bound mail session [java:jboss/mail/Default]
+18:41:31,736 INFO  [org.jboss.as.security] (MSC service thread 1-3) JBAS013170: Current PicketBox version=4.0.19.SP8-redhat-1
+18:41:31,746 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-6) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.26.Final-redhat-1)
+18:41:31,770 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 25) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+18:41:32,001 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) JBWEB003001: Coyote HTTP/1.1 initializing on : http-localhost/127.0.0.1:8080
+18:41:32,004 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) JBWEB003000: Coyote HTTP/1.1 starting on: http-localhost/127.0.0.1:8080
+18:41:32,062 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+18:41:32,086 INFO  [org.jboss.as.remoting] (MSC service thread 1-7) JBAS017100: Listening on 127.0.0.1:4447
+18:41:32,087 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) JBAS017100: Listening on 127.0.0.1:9999
+18:41:32,087 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "RestSampleApplicationEAR.ear" (runtime-name: "RestSampleApplicationEAR.ear")
+18:41:32,088 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory D:\tools\jboss-eap-6.3\standalone\deployments
+18:41:32,161 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.0.Final-redhat-3
+18:41:32,301 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of "null" (runtime-name: "RestSampleApplication.war")
+18:41:32,993 INFO  [org.jboss.web] (ServerService Thread Pool -- 49) JBAS018210: Register web context: /RestSampleApplication
+18:41:33,484 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 26) JBAS018559: Deployed "RestSampleApplicationEAR.ear" (runtime-name : "RestSampleApplicationEAR.ear")
+18:41:33,574 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+18:41:33,574 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+18:41:33,574 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) started in 3191ms - Started 223 of 261 services (61 services are lazy, passive or on-demand)
+18:45:19,318 INFO  [org.jboss.web] (ServerService Thread Pool -- 53) JBAS018224: Unregister web context: /RestSampleApplication
+18:45:19,429 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Stopped deployment null (runtime-name: RestSampleApplication.war) in 110ms
+18:45:19,429 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Stopped deployment RestSampleApplicationEAR.ear (runtime-name: RestSampleApplicationEAR.ear) in 116ms
+18:45:19,429 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "RestSampleApplicationEAR.ear" (runtime-name: "RestSampleApplicationEAR.ear")
+18:45:19,649 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "null" (runtime-name: "RestSampleApplication.war")
+18:45:19,999 INFO  [org.jboss.web] (ServerService Thread Pool -- 58) JBAS018210: Register web context: /RestSampleApplication
+18:45:20,471 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) JBAS018565: Replaced deployment "RestSampleApplicationEAR.ear" with deployment "RestSampleApplicationEAR.ear"
+18:45:23,712 INFO  [org.apache.catalina.core] (MSC service thread 1-6) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+18:45:23,722 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) JBWEB003075: Coyote HTTP/1.1 pausing on: http-localhost/127.0.0.1:8080
+18:45:23,722 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) JBWEB003077: Coyote HTTP/1.1 stopping on : http-localhost/127.0.0.1:8080
+18:45:23,722 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+18:45:23,723 INFO  [org.jboss.web] (ServerService Thread Pool -- 58) JBAS018224: Unregister web context: /RestSampleApplication
+18:45:23,763 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment null (runtime-name: RestSampleApplication.war) in 53ms
+18:45:23,773 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment RestSampleApplicationEAR.ear (runtime-name: RestSampleApplicationEAR.ear) in 61ms
+18:45:23,773 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015950: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) stopped in 55ms
+18:45:26,294 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final-redhat-1
+18:45:26,464 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+18:45:26,524 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) starting
+18:45:26,524 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\tools\jboss-eap-6.3\jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.7.0_25\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.7.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.7.0_25\jre
+	java.io.tmpdir = C:\Users\PRASAN~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.7.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/lib/amd64;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Users\prasannakumarr\AppData\Local\GitHub\PortableGit_7eaa994416ae7b397b2628033ac45f8ff6ac2010\bin;C:\Program Files (x86)\nodejs\;C:\Users\prasannakumarr\AppData\Roaming\npm;C:\Program Files\OpenVPN\bin;D:\profile\Apache24\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\Java\jdk1.7.0_25\bin;D:\profile\Software\MySQL\Extracted\mysql-advanced-5.6.22-winx64\bin;D:\profile\android-sdks\tools;D:\path;C:\ProgramData\chocolatey\bin;;D:\profile\eclipse\eclipse-jee-luna-SR1-win32-x86_64\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0_25-b17
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_25
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 23.25-b01
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = D:\tools\jboss-eap-6.3
+	jboss.host.name = pc1577
+	jboss.modules.dir = D:\tools\jboss-eap-6.3\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pc1577
+	jboss.qualified.host.name = pc1577
+	jboss.server.base.dir = D:\tools\jboss-eap-6.3\standalone
+	jboss.server.config.dir = D:\tools\jboss-eap-6.3\standalone\configuration
+	jboss.server.data.dir = D:\tools\jboss-eap-6.3\standalone\data
+	jboss.server.deploy.dir = D:\tools\jboss-eap-6.3\standalone\data\content
+	jboss.server.log.dir = D:\tools\jboss-eap-6.3\standalone\log
+	jboss.server.name = pc1577
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\tools\jboss-eap-6.3\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/D:/tools/jboss-eap-6.3/standalone/configuration/logging.properties
+	module.path = D:/tools/jboss-eap-6.3/modules
+	org.jboss.boot.log.file = D:/tools/jboss-eap-6.3/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: JBoss Enterprise Application Platform 6.1+
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.7.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_25\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.7.0_25\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp D:/tools/jboss-eap-6.3/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=D:\tools\jboss-eap-6.3\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = D:\tools\jboss-eap-6.3\bin
+	user.home = C:\Users\prasannakumarr
+	user.language = en
+	user.name = prasannakumarr
+	user.script = 
+	user.timezone = Asia/Calcutta
+	user.variant = 
+18:45:26,524 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: JBoss Enterprise Application Platform 6.1+ -Xms1024m -Xmx1024m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=D:/tools/jboss-eap-6.3/standalone/log/boot.log -Dlogging.configuration=file:/D:/tools/jboss-eap-6.3/standalone/configuration/logging.properties -Djboss.home.dir=D:/tools/jboss-eap-6.3 -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+18:45:27,278 INFO  [org.xnio] (MSC service thread 1-7) XNIO Version 3.0.10.GA-redhat-1
+18:45:27,278 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+18:45:27,278 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.0.10.GA-redhat-1
+18:45:27,299 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version (unknown)
+18:45:27,319 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 44) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+18:45:27,319 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 29) JBAS010280: Activating Infinispan subsystem.
+18:45:27,329 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 46) JBAS015537: Activating WebServices Extension
+18:45:27,329 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 37) JBAS011800: Activating Naming Subsystem
+18:45:27,339 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 42) JBAS013171: Activating Security Subsystem
+18:45:27,339 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013170: Current PicketBox version=4.0.19.SP8-redhat-1
+18:45:27,346 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 35) JBAS012605: Activated the following JSF Implementations: [main, 1.2]
+18:45:27,367 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-8) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.26.Final-redhat-1)
+18:45:27,368 INFO  [org.jboss.as.naming] (MSC service thread 1-5) JBAS011802: Starting Naming Service
+18:45:27,369 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+18:45:27,428 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 25) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+18:45:27,492 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-6) JBWEB003001: Coyote HTTP/1.1 initializing on : http-localhost/127.0.0.1:8080
+18:45:27,510 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-6) JBWEB003000: Coyote HTTP/1.1 starting on: http-localhost/127.0.0.1:8080
+18:45:27,640 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+18:45:27,705 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory D:\tools\jboss-eap-6.3\standalone\deployments
+18:45:27,705 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of "RestSampleApplicationEAR.ear" (runtime-name: "RestSampleApplicationEAR.ear")
+18:45:27,715 INFO  [org.jboss.as.remoting] (MSC service thread 1-4) JBAS017100: Listening on 127.0.0.1:4447
+18:45:27,715 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on 127.0.0.1:9999
+18:45:27,757 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.0.Final-redhat-3
+18:45:27,907 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015876: Starting deployment of "null" (runtime-name: "RestSampleApplication.war")
+18:45:28,611 INFO  [org.jboss.web] (ServerService Thread Pool -- 53) JBAS018210: Register web context: /RestSampleApplication
+18:45:29,116 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 26) JBAS018559: Deployed "RestSampleApplicationEAR.ear" (runtime-name : "RestSampleApplicationEAR.ear")
+18:45:29,156 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+18:45:29,156 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+18:45:29,156 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) started in 3142ms - Started 223 of 261 services (61 services are lazy, passive or on-demand)
+19:11:53,102 INFO  [org.jboss.web] (ServerService Thread Pool -- 55) JBAS018224: Unregister web context: /RestSampleApplication
+19:11:53,163 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015877: Stopped deployment null (runtime-name: RestSampleApplication.war) in 65ms
+19:11:53,173 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015877: Stopped deployment RestSampleApplicationEAR.ear (runtime-name: RestSampleApplicationEAR.ear) in 69ms
+19:11:53,173 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of "RestSampleApplicationEAR.ear" (runtime-name: "RestSampleApplicationEAR.ear")
+19:11:53,343 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "null" (runtime-name: "RestSampleApplication.war")
+19:11:53,709 INFO  [org.jboss.web] (ServerService Thread Pool -- 60) JBAS018210: Register web context: /RestSampleApplication
+19:11:54,544 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) JBAS018565: Replaced deployment "RestSampleApplicationEAR.ear" with deployment "RestSampleApplicationEAR.ear"
+19:12:00,193 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) JBWEB003075: Coyote HTTP/1.1 pausing on: http-localhost/127.0.0.1:8080
+19:12:00,193 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) JBWEB003077: Coyote HTTP/1.1 stopping on : http-localhost/127.0.0.1:8080
+19:12:00,194 INFO  [org.apache.catalina.core] (MSC service thread 1-6) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+19:12:00,194 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+19:12:00,214 INFO  [org.jboss.web] (ServerService Thread Pool -- 59) JBAS018224: Unregister web context: /RestSampleApplication
+19:12:00,254 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015877: Stopped deployment null (runtime-name: RestSampleApplication.war) in 69ms
+19:12:00,254 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Stopped deployment RestSampleApplicationEAR.ear (runtime-name: RestSampleApplicationEAR.ear) in 76ms
+19:12:00,264 INFO  [org.jboss.as] (MSC service thread 1-5) JBAS015950: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) stopped in 65ms
+19:12:02,855 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final-redhat-1
+19:12:03,025 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+19:12:03,095 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) starting
+19:12:03,095 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\tools\jboss-eap-6.3\jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.7.0_25\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.7.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.7.0_25\jre
+	java.io.tmpdir = C:\Users\PRASAN~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.7.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/lib/amd64;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Users\prasannakumarr\AppData\Local\GitHub\PortableGit_7eaa994416ae7b397b2628033ac45f8ff6ac2010\bin;C:\Program Files (x86)\nodejs\;C:\Users\prasannakumarr\AppData\Roaming\npm;C:\Program Files\OpenVPN\bin;D:\profile\Apache24\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\Java\jdk1.7.0_25\bin;D:\profile\Software\MySQL\Extracted\mysql-advanced-5.6.22-winx64\bin;D:\profile\android-sdks\tools;D:\path;C:\ProgramData\chocolatey\bin;;D:\profile\eclipse\eclipse-jee-luna-SR1-win32-x86_64\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0_25-b17
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_25
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 23.25-b01
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = D:\tools\jboss-eap-6.3
+	jboss.host.name = pc1577
+	jboss.modules.dir = D:\tools\jboss-eap-6.3\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pc1577
+	jboss.qualified.host.name = pc1577
+	jboss.server.base.dir = D:\tools\jboss-eap-6.3\standalone
+	jboss.server.config.dir = D:\tools\jboss-eap-6.3\standalone\configuration
+	jboss.server.data.dir = D:\tools\jboss-eap-6.3\standalone\data
+	jboss.server.deploy.dir = D:\tools\jboss-eap-6.3\standalone\data\content
+	jboss.server.log.dir = D:\tools\jboss-eap-6.3\standalone\log
+	jboss.server.name = pc1577
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\tools\jboss-eap-6.3\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/D:/tools/jboss-eap-6.3/standalone/configuration/logging.properties
+	module.path = D:/tools/jboss-eap-6.3/modules
+	org.jboss.boot.log.file = D:/tools/jboss-eap-6.3/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: JBoss Enterprise Application Platform 6.1+
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.7.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_25\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.7.0_25\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp D:/tools/jboss-eap-6.3/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=D:\tools\jboss-eap-6.3\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = D:\tools\jboss-eap-6.3\bin
+	user.home = C:\Users\prasannakumarr
+	user.language = en
+	user.name = prasannakumarr
+	user.script = 
+	user.timezone = Asia/Calcutta
+	user.variant = 
+19:12:03,095 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: JBoss Enterprise Application Platform 6.1+ -Xms1024m -Xmx1024m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=D:/tools/jboss-eap-6.3/standalone/log/boot.log -Dlogging.configuration=file:/D:/tools/jboss-eap-6.3/standalone/configuration/logging.properties -Djboss.home.dir=D:/tools/jboss-eap-6.3 -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+19:12:03,879 INFO  [org.xnio] (MSC service thread 1-7) XNIO Version 3.0.10.GA-redhat-1
+19:12:03,879 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+19:12:03,879 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.0.10.GA-redhat-1
+19:12:03,900 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version (unknown)
+19:12:03,920 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 37) JBAS011800: Activating Naming Subsystem
+19:12:03,920 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 44) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+19:12:03,930 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 46) JBAS015537: Activating WebServices Extension
+19:12:03,930 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 29) JBAS010280: Activating Infinispan subsystem.
+19:12:03,930 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 42) JBAS013171: Activating Security Subsystem
+19:12:03,931 INFO  [org.jboss.as.security] (MSC service thread 1-6) JBAS013170: Current PicketBox version=4.0.19.SP8-redhat-1
+19:12:03,931 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-5) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.26.Final-redhat-1)
+19:12:03,947 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 35) JBAS012605: Activated the following JSF Implementations: [main, 1.2]
+19:12:03,982 INFO  [org.jboss.as.naming] (MSC service thread 1-2) JBAS011802: Starting Naming Service
+19:12:04,002 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) JBAS015400: Bound mail session [java:jboss/mail/Default]
+19:12:04,010 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 25) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+19:12:04,149 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-6) JBWEB003001: Coyote HTTP/1.1 initializing on : http-localhost/127.0.0.1:8080
+19:12:04,162 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-6) JBWEB003000: Coyote HTTP/1.1 starting on: http-localhost/127.0.0.1:8080
+19:12:04,266 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+19:12:04,344 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015876: Starting deployment of "RestSampleApplicationEAR.ear" (runtime-name: "RestSampleApplicationEAR.ear")
+19:12:04,344 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) JBAS017100: Listening on 127.0.0.1:4447
+19:12:04,344 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on 127.0.0.1:9999
+19:12:04,354 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) JBAS015012: Started FileSystemDeploymentService for directory D:\tools\jboss-eap-6.3\standalone\deployments
+19:12:04,416 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.0.Final-redhat-3
+19:12:04,658 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015876: Starting deployment of "null" (runtime-name: "RestSampleApplication.war")
+19:12:05,328 INFO  [org.jboss.web] (ServerService Thread Pool -- 51) JBAS018210: Register web context: /RestSampleApplication
+19:12:05,839 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 26) JBAS018559: Deployed "RestSampleApplicationEAR.ear" (runtime-name : "RestSampleApplicationEAR.ear")
+19:12:05,919 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+19:12:05,919 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+19:12:05,919 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) started in 3354ms - Started 223 of 261 services (61 services are lazy, passive or on-demand)
+19:15:21,614 INFO  [org.jboss.web] (ServerService Thread Pool -- 55) JBAS018224: Unregister web context: /RestSampleApplication
+19:15:21,675 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015877: Stopped deployment null (runtime-name: RestSampleApplication.war) in 70ms
+19:15:21,685 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015877: Stopped deployment RestSampleApplicationEAR.ear (runtime-name: RestSampleApplicationEAR.ear) in 73ms
+19:15:21,685 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of "RestSampleApplicationEAR.ear" (runtime-name: "RestSampleApplicationEAR.ear")
+19:15:21,853 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "null" (runtime-name: "RestSampleApplication.war")
+19:15:22,213 INFO  [org.jboss.web] (ServerService Thread Pool -- 58) JBAS018210: Register web context: /RestSampleApplication
+19:15:22,665 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) JBAS018565: Replaced deployment "RestSampleApplicationEAR.ear" with deployment "RestSampleApplicationEAR.ear"
+19:15:25,736 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) JBWEB003075: Coyote HTTP/1.1 pausing on: http-localhost/127.0.0.1:8080
+19:15:25,736 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) JBWEB003077: Coyote HTTP/1.1 stopping on : http-localhost/127.0.0.1:8080
+19:15:25,746 INFO  [org.apache.catalina.core] (MSC service thread 1-2) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+19:15:25,747 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+19:15:25,747 INFO  [org.jboss.web] (ServerService Thread Pool -- 58) JBAS018224: Unregister web context: /RestSampleApplication
+19:15:25,797 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015877: Stopped deployment null (runtime-name: RestSampleApplication.war) in 62ms
+19:15:25,807 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015877: Stopped deployment RestSampleApplicationEAR.ear (runtime-name: RestSampleApplicationEAR.ear) in 69ms
+19:15:25,807 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015950: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) stopped in 52ms
+19:15:28,701 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final-redhat-1
+19:15:28,861 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+19:15:28,921 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) starting
+19:15:28,922 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\tools\jboss-eap-6.3\jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.7.0_25\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.7.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.7.0_25\jre
+	java.io.tmpdir = C:\Users\PRASAN~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.7.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/lib/amd64;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Users\prasannakumarr\AppData\Local\GitHub\PortableGit_7eaa994416ae7b397b2628033ac45f8ff6ac2010\bin;C:\Program Files (x86)\nodejs\;C:\Users\prasannakumarr\AppData\Roaming\npm;C:\Program Files\OpenVPN\bin;D:\profile\Apache24\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\Java\jdk1.7.0_25\bin;D:\profile\Software\MySQL\Extracted\mysql-advanced-5.6.22-winx64\bin;D:\profile\android-sdks\tools;D:\path;C:\ProgramData\chocolatey\bin;;D:\profile\eclipse\eclipse-jee-luna-SR1-win32-x86_64\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0_25-b17
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_25
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 23.25-b01
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = D:\tools\jboss-eap-6.3
+	jboss.host.name = pc1577
+	jboss.modules.dir = D:\tools\jboss-eap-6.3\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pc1577
+	jboss.qualified.host.name = pc1577
+	jboss.server.base.dir = D:\tools\jboss-eap-6.3\standalone
+	jboss.server.config.dir = D:\tools\jboss-eap-6.3\standalone\configuration
+	jboss.server.data.dir = D:\tools\jboss-eap-6.3\standalone\data
+	jboss.server.deploy.dir = D:\tools\jboss-eap-6.3\standalone\data\content
+	jboss.server.log.dir = D:\tools\jboss-eap-6.3\standalone\log
+	jboss.server.name = pc1577
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\tools\jboss-eap-6.3\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/D:/tools/jboss-eap-6.3/standalone/configuration/logging.properties
+	module.path = D:/tools/jboss-eap-6.3/modules
+	org.jboss.boot.log.file = D:/tools/jboss-eap-6.3/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: JBoss Enterprise Application Platform 6.1+
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.7.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_25\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.7.0_25\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp D:/tools/jboss-eap-6.3/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=D:\tools\jboss-eap-6.3\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = D:\tools\jboss-eap-6.3\bin
+	user.home = C:\Users\prasannakumarr
+	user.language = en
+	user.name = prasannakumarr
+	user.script = 
+	user.timezone = Asia/Calcutta
+	user.variant = 
+19:15:28,922 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: JBoss Enterprise Application Platform 6.1+ -Xms1024m -Xmx1024m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=D:/tools/jboss-eap-6.3/standalone/log/boot.log -Dlogging.configuration=file:/D:/tools/jboss-eap-6.3/standalone/configuration/logging.properties -Djboss.home.dir=D:/tools/jboss-eap-6.3 -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+19:15:29,672 INFO  [org.xnio] (MSC service thread 1-2) XNIO Version 3.0.10.GA-redhat-1
+19:15:29,682 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+19:15:29,682 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.0.10.GA-redhat-1
+19:15:29,702 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version (unknown)
+19:15:29,712 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 29) JBAS010280: Activating Infinispan subsystem.
+19:15:29,722 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 42) JBAS013171: Activating Security Subsystem
+19:15:29,722 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 44) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+19:15:29,722 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 46) JBAS015537: Activating WebServices Extension
+19:15:29,723 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013170: Current PicketBox version=4.0.19.SP8-redhat-1
+19:15:29,728 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 37) JBAS011800: Activating Naming Subsystem
+19:15:29,733 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 35) JBAS012605: Activated the following JSF Implementations: [main, 1.2]
+19:15:29,776 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-1) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.26.Final-redhat-1)
+19:15:29,799 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 25) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+19:15:29,801 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Starting Naming Service
+19:15:29,802 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) JBAS015400: Bound mail session [java:jboss/mail/Default]
+19:15:29,949 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-4) JBWEB003001: Coyote HTTP/1.1 initializing on : http-localhost/127.0.0.1:8080
+19:15:29,957 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-4) JBWEB003000: Coyote HTTP/1.1 starting on: http-localhost/127.0.0.1:8080
+19:15:30,076 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+19:15:30,096 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "RestSampleApplicationEAR.ear" (runtime-name: "RestSampleApplicationEAR.ear")
+19:15:30,106 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) JBAS017100: Listening on 127.0.0.1:4447
+19:15:30,106 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) JBAS015012: Started FileSystemDeploymentService for directory D:\tools\jboss-eap-6.3\standalone\deployments
+19:15:30,145 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on 127.0.0.1:9999
+19:15:30,198 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.0.Final-redhat-3
+19:15:30,348 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "null" (runtime-name: "RestSampleApplication.war")
+19:15:31,030 INFO  [org.jboss.web] (ServerService Thread Pool -- 53) JBAS018210: Register web context: /RestSampleApplication
+19:15:31,521 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 26) JBAS018559: Deployed "RestSampleApplicationEAR.ear" (runtime-name : "RestSampleApplicationEAR.ear")
+19:15:31,781 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+19:15:31,781 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+19:15:31,781 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) started in 3360ms - Started 223 of 261 services (61 services are lazy, passive or on-demand)
+19:15:48,457 INFO  [stdout] (http-localhost/127.0.0.1:8080-3) CorsFilter entry
+19:15:48,457 INFO  [stdout] (http-localhost/127.0.0.1:8080-3) CorsFilter exit
+19:15:48,501 INFO  [stdout] (http-localhost/127.0.0.1:8080-3) Inside sendATextMessage service
+19:15:48,501 INFO  [stdout] (http-localhost/127.0.0.1:8080-3) CorsFilter entry
+19:15:48,501 INFO  [stdout] (http-localhost/127.0.0.1:8080-3) CorsFilter exit
+19:27:51,322 INFO  [stdout] (http-localhost/127.0.0.1:8080-5) CorsFilter entry
+19:27:51,323 INFO  [stdout] (http-localhost/127.0.0.1:8080-5) CorsFilter exit
+19:27:51,329 INFO  [stdout] (http-localhost/127.0.0.1:8080-5) Inside sendATextMessage service
+19:27:51,329 INFO  [stdout] (http-localhost/127.0.0.1:8080-5) CorsFilter entry
+19:27:51,329 INFO  [stdout] (http-localhost/127.0.0.1:8080-5) CorsFilter exit
+19:28:23,686 INFO  [stdout] (http-localhost/127.0.0.1:8080-5) CorsFilter entry
+19:28:23,687 INFO  [stdout] (http-localhost/127.0.0.1:8080-5) CorsFilter exit
+19:28:23,692 INFO  [stdout] (http-localhost/127.0.0.1:8080-5) Inside sendATextMessage service
+19:28:23,693 INFO  [stdout] (http-localhost/127.0.0.1:8080-5) CorsFilter entry
+19:28:23,693 INFO  [stdout] (http-localhost/127.0.0.1:8080-5) CorsFilter exit
+19:39:25,369 INFO  [org.jboss.web] (ServerService Thread Pool -- 55) JBAS018224: Unregister web context: /RestSampleApplication
+19:39:25,436 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015877: Stopped deployment null (runtime-name: RestSampleApplication.war) in 69ms
+19:39:25,436 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015877: Stopped deployment RestSampleApplicationEAR.ear (runtime-name: RestSampleApplicationEAR.ear) in 72ms
+19:39:25,446 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "RestSampleApplicationEAR.ear" (runtime-name: "RestSampleApplicationEAR.ear")
+19:39:25,606 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "null" (runtime-name: "RestSampleApplication.war")
+19:39:25,976 INFO  [org.jboss.web] (ServerService Thread Pool -- 59) JBAS018210: Register web context: /RestSampleApplication
+19:39:26,416 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) JBAS018565: Replaced deployment "RestSampleApplicationEAR.ear" with deployment "RestSampleApplicationEAR.ear"
+19:39:30,206 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+19:39:30,206 INFO  [org.jboss.web] (ServerService Thread Pool -- 57) JBAS018224: Unregister web context: /RestSampleApplication
+19:39:30,206 INFO  [org.apache.catalina.core] (MSC service thread 1-2) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+19:39:30,207 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-7) JBWEB003075: Coyote HTTP/1.1 pausing on: http-localhost/127.0.0.1:8080
+19:39:30,207 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-7) JBWEB003077: Coyote HTTP/1.1 stopping on : http-localhost/127.0.0.1:8080
+19:39:30,257 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015877: Stopped deployment null (runtime-name: RestSampleApplication.war) in 59ms
+19:39:30,257 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015877: Stopped deployment RestSampleApplicationEAR.ear (runtime-name: RestSampleApplicationEAR.ear) in 65ms
+19:39:30,257 INFO  [org.jboss.as] (MSC service thread 1-7) JBAS015950: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) stopped in 61ms
+19:39:32,857 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final-redhat-1
+19:39:33,027 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+19:39:33,087 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) starting
+19:39:33,097 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\tools\jboss-eap-6.3\jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.7.0_25\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.7.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.7.0_25\jre
+	java.io.tmpdir = C:\Users\PRASAN~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.7.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/lib/amd64;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Users\prasannakumarr\AppData\Local\GitHub\PortableGit_7eaa994416ae7b397b2628033ac45f8ff6ac2010\bin;C:\Program Files (x86)\nodejs\;C:\Users\prasannakumarr\AppData\Roaming\npm;C:\Program Files\OpenVPN\bin;D:\profile\Apache24\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\Java\jdk1.7.0_25\bin;D:\profile\Software\MySQL\Extracted\mysql-advanced-5.6.22-winx64\bin;D:\profile\android-sdks\tools;D:\path;C:\ProgramData\chocolatey\bin;;D:\profile\eclipse\eclipse-jee-luna-SR1-win32-x86_64\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0_25-b17
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_25
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 23.25-b01
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = D:\tools\jboss-eap-6.3
+	jboss.host.name = pc1577
+	jboss.modules.dir = D:\tools\jboss-eap-6.3\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pc1577
+	jboss.qualified.host.name = pc1577
+	jboss.server.base.dir = D:\tools\jboss-eap-6.3\standalone
+	jboss.server.config.dir = D:\tools\jboss-eap-6.3\standalone\configuration
+	jboss.server.data.dir = D:\tools\jboss-eap-6.3\standalone\data
+	jboss.server.deploy.dir = D:\tools\jboss-eap-6.3\standalone\data\content
+	jboss.server.log.dir = D:\tools\jboss-eap-6.3\standalone\log
+	jboss.server.name = pc1577
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\tools\jboss-eap-6.3\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/D:/tools/jboss-eap-6.3/standalone/configuration/logging.properties
+	module.path = D:/tools/jboss-eap-6.3/modules
+	org.jboss.boot.log.file = D:/tools/jboss-eap-6.3/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: JBoss Enterprise Application Platform 6.1+
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.7.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_25\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.7.0_25\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp D:/tools/jboss-eap-6.3/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=D:\tools\jboss-eap-6.3\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = D:\tools\jboss-eap-6.3\bin
+	user.home = C:\Users\prasannakumarr
+	user.language = en
+	user.name = prasannakumarr
+	user.script = 
+	user.timezone = Asia/Calcutta
+	user.variant = 
+19:39:33,097 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: JBoss Enterprise Application Platform 6.1+ -Xms1024m -Xmx1024m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=D:/tools/jboss-eap-6.3/standalone/log/boot.log -Dlogging.configuration=file:/D:/tools/jboss-eap-6.3/standalone/configuration/logging.properties -Djboss.home.dir=D:/tools/jboss-eap-6.3 -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+19:39:33,851 INFO  [org.xnio] (MSC service thread 1-3) XNIO Version 3.0.10.GA-redhat-1
+19:39:33,851 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+19:39:33,852 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.0.10.GA-redhat-1
+19:39:33,882 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version (unknown)
+19:39:33,913 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 42) JBAS013171: Activating Security Subsystem
+19:39:33,913 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 29) JBAS010280: Activating Infinispan subsystem.
+19:39:33,915 INFO  [org.jboss.as.security] (MSC service thread 1-8) JBAS013170: Current PicketBox version=4.0.19.SP8-redhat-1
+19:39:33,918 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 44) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+19:39:33,919 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 37) JBAS011800: Activating Naming Subsystem
+19:39:33,921 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 25) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+19:39:33,928 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 46) JBAS015537: Activating WebServices Extension
+19:39:33,945 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-6) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.26.Final-redhat-1)
+19:39:33,955 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 35) JBAS012605: Activated the following JSF Implementations: [main, 1.2]
+19:39:33,963 INFO  [org.jboss.as.naming] (MSC service thread 1-3) JBAS011802: Starting Naming Service
+19:39:33,974 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) JBAS015400: Bound mail session [java:jboss/mail/Default]
+19:39:34,173 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) JBWEB003001: Coyote HTTP/1.1 initializing on : http-localhost/127.0.0.1:8080
+19:39:34,176 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) JBWEB003000: Coyote HTTP/1.1 starting on: http-localhost/127.0.0.1:8080
+19:39:34,267 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory D:\tools\jboss-eap-6.3\standalone\deployments
+19:39:34,267 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "RestSampleApplicationEAR.ear" (runtime-name: "RestSampleApplicationEAR.ear")
+19:39:34,272 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) JBAS017100: Listening on 127.0.0.1:9999
+19:39:34,273 INFO  [org.jboss.as.remoting] (MSC service thread 1-5) JBAS017100: Listening on 127.0.0.1:4447
+19:39:34,302 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+19:39:34,378 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.0.Final-redhat-3
+19:39:34,518 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of "null" (runtime-name: "RestSampleApplication.war")
+19:39:35,210 INFO  [org.jboss.web] (ServerService Thread Pool -- 51) JBAS018210: Register web context: /RestSampleApplication
+19:39:35,671 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 26) JBAS018559: Deployed "RestSampleApplicationEAR.ear" (runtime-name : "RestSampleApplicationEAR.ear")
+19:39:35,781 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+19:39:35,781 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+19:39:35,781 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) started in 3220ms - Started 223 of 261 services (61 services are lazy, passive or on-demand)
+19:40:04,285 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) CorsFilter entry
+19:40:04,285 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) CorsFilter exit
+19:40:04,316 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) Inside sendATextMessage service
+19:40:04,316 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) CorsFilter entry
+19:40:04,316 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) CorsFilter exit
+19:40:22,868 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) CorsFilter entry
+19:40:22,869 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) CorsFilter exit
+19:40:22,875 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) Inside sendATextMessage service
+19:40:22,875 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) CorsFilter entry
+19:40:22,875 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) CorsFilter exit
+19:41:36,097 INFO  [org.jboss.web] (ServerService Thread Pool -- 54) JBAS018224: Unregister web context: /RestSampleApplication
+19:41:36,178 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015877: Stopped deployment null (runtime-name: RestSampleApplication.war) in 81ms
+19:41:36,178 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015877: Stopped deployment RestSampleApplicationEAR.ear (runtime-name: RestSampleApplicationEAR.ear) in 84ms
+19:41:36,178 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of "RestSampleApplicationEAR.ear" (runtime-name: "RestSampleApplicationEAR.ear")
+19:41:36,368 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "null" (runtime-name: "RestSampleApplication.war")
+19:41:36,738 INFO  [org.jboss.web] (ServerService Thread Pool -- 56) JBAS018210: Register web context: /RestSampleApplication
+19:41:37,208 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018565: Replaced deployment "RestSampleApplicationEAR.ear" with deployment "RestSampleApplicationEAR.ear"
+19:41:43,389 INFO  [org.apache.catalina.core] (MSC service thread 1-8) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+19:41:43,399 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-6) JBWEB003075: Coyote HTTP/1.1 pausing on: http-localhost/127.0.0.1:8080
+19:41:43,399 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-6) JBWEB003077: Coyote HTTP/1.1 stopping on : http-localhost/127.0.0.1:8080
+19:41:43,399 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+19:41:43,399 INFO  [org.jboss.web] (ServerService Thread Pool -- 56) JBAS018224: Unregister web context: /RestSampleApplication
+19:41:43,440 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015877: Stopped deployment null (runtime-name: RestSampleApplication.war) in 58ms
+19:41:43,440 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment RestSampleApplicationEAR.ear (runtime-name: RestSampleApplicationEAR.ear) in 65ms
+19:41:43,450 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015950: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) stopped in 59ms
+19:41:45,985 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final-redhat-1
+19:41:46,145 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+19:41:46,215 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) starting
+19:41:46,215 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\tools\jboss-eap-6.3\jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.7.0_25\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.7.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.7.0_25\jre
+	java.io.tmpdir = C:\Users\PRASAN~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.7.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/lib/amd64;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Users\prasannakumarr\AppData\Local\GitHub\PortableGit_7eaa994416ae7b397b2628033ac45f8ff6ac2010\bin;C:\Program Files (x86)\nodejs\;C:\Users\prasannakumarr\AppData\Roaming\npm;C:\Program Files\OpenVPN\bin;D:\profile\Apache24\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\Java\jdk1.7.0_25\bin;D:\profile\Software\MySQL\Extracted\mysql-advanced-5.6.22-winx64\bin;D:\profile\android-sdks\tools;D:\path;C:\ProgramData\chocolatey\bin;;D:\profile\eclipse\eclipse-jee-luna-SR1-win32-x86_64\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0_25-b17
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_25
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 23.25-b01
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = D:\tools\jboss-eap-6.3
+	jboss.host.name = pc1577
+	jboss.modules.dir = D:\tools\jboss-eap-6.3\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pc1577
+	jboss.qualified.host.name = pc1577
+	jboss.server.base.dir = D:\tools\jboss-eap-6.3\standalone
+	jboss.server.config.dir = D:\tools\jboss-eap-6.3\standalone\configuration
+	jboss.server.data.dir = D:\tools\jboss-eap-6.3\standalone\data
+	jboss.server.deploy.dir = D:\tools\jboss-eap-6.3\standalone\data\content
+	jboss.server.log.dir = D:\tools\jboss-eap-6.3\standalone\log
+	jboss.server.name = pc1577
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\tools\jboss-eap-6.3\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/D:/tools/jboss-eap-6.3/standalone/configuration/logging.properties
+	module.path = D:/tools/jboss-eap-6.3/modules
+	org.jboss.boot.log.file = D:/tools/jboss-eap-6.3/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: JBoss Enterprise Application Platform 6.1+
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.7.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_25\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.7.0_25\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp D:/tools/jboss-eap-6.3/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=D:\tools\jboss-eap-6.3\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = D:\tools\jboss-eap-6.3\bin
+	user.home = C:\Users\prasannakumarr
+	user.language = en
+	user.name = prasannakumarr
+	user.script = 
+	user.timezone = Asia/Calcutta
+	user.variant = 
+19:41:46,215 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: JBoss Enterprise Application Platform 6.1+ -Xms1024m -Xmx1024m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=D:/tools/jboss-eap-6.3/standalone/log/boot.log -Dlogging.configuration=file:/D:/tools/jboss-eap-6.3/standalone/configuration/logging.properties -Djboss.home.dir=D:/tools/jboss-eap-6.3 -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+19:41:46,965 INFO  [org.xnio] (MSC service thread 1-4) XNIO Version 3.0.10.GA-redhat-1
+19:41:46,965 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+19:41:46,965 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.0.10.GA-redhat-1
+19:41:46,986 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version (unknown)
+19:41:46,996 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 29) JBAS010280: Activating Infinispan subsystem.
+19:41:47,006 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 37) JBAS011800: Activating Naming Subsystem
+19:41:47,016 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 44) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+19:41:47,027 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 42) JBAS013171: Activating Security Subsystem
+19:41:47,029 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 46) JBAS015537: Activating WebServices Extension
+19:41:47,040 INFO  [org.jboss.as.security] (MSC service thread 1-3) JBAS013170: Current PicketBox version=4.0.19.SP8-redhat-1
+19:41:47,045 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 35) JBAS012605: Activated the following JSF Implementations: [main, 1.2]
+19:41:47,061 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-4) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.26.Final-redhat-1)
+19:41:47,066 INFO  [org.jboss.as.naming] (MSC service thread 1-3) JBAS011802: Starting Naming Service
+19:41:47,069 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) JBAS015400: Bound mail session [java:jboss/mail/Default]
+19:41:47,093 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 25) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+19:41:47,346 INFO  [org.jboss.as.remoting] (MSC service thread 1-5) JBAS017100: Listening on 127.0.0.1:4447
+19:41:47,355 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) JBAS015012: Started FileSystemDeploymentService for directory D:\tools\jboss-eap-6.3\standalone\deployments
+19:41:47,365 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-4) JBWEB003001: Coyote HTTP/1.1 initializing on : http-localhost/127.0.0.1:8080
+19:41:47,371 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-4) JBWEB003000: Coyote HTTP/1.1 starting on: http-localhost/127.0.0.1:8080
+19:41:47,375 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015876: Starting deployment of "RestSampleApplicationEAR.ear" (runtime-name: "RestSampleApplicationEAR.ear")
+19:41:47,387 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.0.Final-redhat-3
+19:41:47,396 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) JBAS017100: Listening on 127.0.0.1:9999
+19:41:47,470 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+19:41:47,610 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "null" (runtime-name: "RestSampleApplication.war")
+19:41:48,300 INFO  [org.jboss.web] (ServerService Thread Pool -- 51) JBAS018210: Register web context: /RestSampleApplication
+19:41:48,771 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 26) JBAS018559: Deployed "RestSampleApplicationEAR.ear" (runtime-name : "RestSampleApplicationEAR.ear")
+19:41:48,881 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+19:41:48,881 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+19:41:48,881 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) started in 3186ms - Started 223 of 261 services (61 services are lazy, passive or on-demand)
+19:41:59,267 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) MessageFilter entry
+19:41:59,267 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) MessageFilter exit
+19:41:59,267 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) CorsFilter entry
+19:41:59,267 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) CorsFilter exit
+19:41:59,298 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) Inside sendATextMessage service
+19:41:59,298 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) MessageFilter entry
+19:41:59,298 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) MessageFilter exit
+19:41:59,298 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) CorsFilter entry
+19:41:59,298 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) CorsFilter exit
+19:45:12,922 INFO  [org.apache.catalina.core] (MSC service thread 1-1) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+19:45:12,922 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-4) JBWEB003075: Coyote HTTP/1.1 pausing on: http-localhost/127.0.0.1:8080
+19:45:12,922 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-4) JBWEB003077: Coyote HTTP/1.1 stopping on : http-localhost/127.0.0.1:8080
+19:45:12,922 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+19:45:12,932 INFO  [org.jboss.web] (ServerService Thread Pool -- 55) JBAS018224: Unregister web context: /RestSampleApplication
+19:45:12,984 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment null (runtime-name: RestSampleApplication.war) in 67ms
+19:45:12,984 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment RestSampleApplicationEAR.ear (runtime-name: RestSampleApplicationEAR.ear) in 71ms
+19:45:12,994 INFO  [org.jboss.as] (MSC service thread 1-4) JBAS015950: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) stopped in 65ms
+20:10:29,267 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final-redhat-1
+20:10:29,447 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+20:10:29,507 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) starting
+20:10:29,517 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\tools\jboss-eap-6.3\jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.7.0_25\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.7.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.7.0_25\jre
+	java.io.tmpdir = C:\Users\PRASAN~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.7.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/lib/amd64;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Users\prasannakumarr\AppData\Local\GitHub\PortableGit_7eaa994416ae7b397b2628033ac45f8ff6ac2010\bin;C:\Program Files (x86)\nodejs\;C:\Users\prasannakumarr\AppData\Roaming\npm;C:\Program Files\OpenVPN\bin;D:\profile\Apache24\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\Java\jdk1.7.0_25\bin;D:\profile\Software\MySQL\Extracted\mysql-advanced-5.6.22-winx64\bin;D:\profile\android-sdks\tools;D:\path;C:\ProgramData\chocolatey\bin;;D:\profile\eclipse\eclipse-jee-luna-SR1-win32-x86_64\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0_25-b17
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_25
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 23.25-b01
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = D:\tools\jboss-eap-6.3
+	jboss.host.name = pc1577
+	jboss.modules.dir = D:\tools\jboss-eap-6.3\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = pc1577
+	jboss.qualified.host.name = pc1577
+	jboss.server.base.dir = D:\tools\jboss-eap-6.3\standalone
+	jboss.server.config.dir = D:\tools\jboss-eap-6.3\standalone\configuration
+	jboss.server.data.dir = D:\tools\jboss-eap-6.3\standalone\data
+	jboss.server.deploy.dir = D:\tools\jboss-eap-6.3\standalone\data\content
+	jboss.server.log.dir = D:\tools\jboss-eap-6.3\standalone\log
+	jboss.server.name = pc1577
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\tools\jboss-eap-6.3\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/D:/tools/jboss-eap-6.3/standalone/configuration/logging.properties
+	module.path = D:/tools/jboss-eap-6.3/modules
+	org.jboss.boot.log.file = D:/tools/jboss-eap-6.3/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: JBoss Enterprise Application Platform 6.1+
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.7.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_25\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.7.0_25\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp D:/tools/jboss-eap-6.3/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=D:\tools\jboss-eap-6.3\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = D:\tools\jboss-eap-6.3\bin
+	user.home = C:\Users\prasannakumarr
+	user.language = en
+	user.name = prasannakumarr
+	user.script = 
+	user.timezone = Asia/Calcutta
+	user.variant = 
+20:10:29,517 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: JBoss Enterprise Application Platform 6.1+ -Xms1024m -Xmx1024m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=D:/tools/jboss-eap-6.3/standalone/log/boot.log -Dlogging.configuration=file:/D:/tools/jboss-eap-6.3/standalone/configuration/logging.properties -Djboss.home.dir=D:/tools/jboss-eap-6.3 -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+20:10:30,299 INFO  [org.xnio] (MSC service thread 1-5) XNIO Version 3.0.10.GA-redhat-1
+20:10:30,299 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+20:10:30,299 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.0.10.GA-redhat-1
+20:10:30,320 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version (unknown)
+20:10:30,330 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 29) JBAS010280: Activating Infinispan subsystem.
+20:10:30,340 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 42) JBAS013171: Activating Security Subsystem
+20:10:30,350 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 46) JBAS015537: Activating WebServices Extension
+20:10:30,350 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 37) JBAS011800: Activating Naming Subsystem
+20:10:30,350 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 44) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+20:10:30,351 INFO  [org.jboss.as.security] (MSC service thread 1-4) JBAS013170: Current PicketBox version=4.0.19.SP8-redhat-1
+20:10:30,358 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-3) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.26.Final-redhat-1)
+20:10:30,360 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 35) JBAS012605: Activated the following JSF Implementations: [main, 1.2]
+20:10:30,382 INFO  [org.jboss.as.naming] (MSC service thread 1-6) JBAS011802: Starting Naming Service
+20:10:30,383 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) JBAS015400: Bound mail session [java:jboss/mail/Default]
+20:10:30,420 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 25) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+20:10:30,654 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-6) JBWEB003001: Coyote HTTP/1.1 initializing on : http-localhost/127.0.0.1:8080
+20:10:30,654 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-6) JBWEB003000: Coyote HTTP/1.1 starting on: http-localhost/127.0.0.1:8080
+20:10:30,704 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+20:10:30,724 INFO  [org.jboss.as.remoting] (MSC service thread 1-7) JBAS017100: Listening on 127.0.0.1:4447
+20:10:30,724 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) JBAS017100: Listening on 127.0.0.1:9999
+20:10:30,734 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "RestSampleApplicationEAR.ear" (runtime-name: "RestSampleApplicationEAR.ear")
+20:10:30,734 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) JBAS015012: Started FileSystemDeploymentService for directory D:\tools\jboss-eap-6.3\standalone\deployments
+20:10:30,774 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.0.Final-redhat-3
+20:10:30,934 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "null" (runtime-name: "RestSampleApplication.war")
+20:10:31,648 INFO  [org.jboss.web] (ServerService Thread Pool -- 51) JBAS018210: Register web context: /RestSampleApplication
+20:10:32,149 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 26) JBAS018559: Deployed "RestSampleApplicationEAR.ear" (runtime-name : "RestSampleApplicationEAR.ear")
+20:10:32,269 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+20:10:32,269 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+20:10:32,269 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) started in 3312ms - Started 223 of 261 services (61 services are lazy, passive or on-demand)
+20:31:40,893 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) MessageFilter entry
+20:31:40,893 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) MessageFilter exit
+20:31:40,893 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) CorsFilter entry
+20:31:40,893 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) CorsFilter exit
+20:31:41,134 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) MessageFilter entry
+20:31:41,134 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) MessageFilter exit
+20:31:41,134 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) CorsFilter entry
+20:31:41,134 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) CorsFilter exit
+20:32:03,864 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) MessageFilter entry
+20:32:03,864 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) MessageFilter exit
+20:32:03,864 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) CorsFilter entry
+20:32:03,864 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) CorsFilter exit
+20:32:04,095 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) MessageFilter entry
+20:32:04,095 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) MessageFilter exit
+20:32:04,095 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) CorsFilter entry
+20:32:04,095 INFO  [stdout] (http-localhost/127.0.0.1:8080-1) CorsFilter exit
