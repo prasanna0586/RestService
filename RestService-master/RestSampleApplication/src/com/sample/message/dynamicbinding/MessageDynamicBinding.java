@@ -1,4 +1,4 @@
-package com.sample.message.dynamicbinding;
+/*package com.sample.message.dynamicbinding;
 
 import javax.ws.rs.container.DynamicFeature;
 import javax.ws.rs.container.PreMatching;
@@ -7,7 +7,7 @@ import javax.ws.rs.core.FeatureContext;
 
 import com.sample.message.filter.MessageFilter;
 import com.sample.rest.message.SendMessageResource;
-@PreMatching
+
 public class MessageDynamicBinding implements DynamicFeature {
 
 	@Override
@@ -20,4 +20,4 @@ public class MessageDynamicBinding implements DynamicFeature {
 		}
 		System.out.println("MessageDynamicBinding exit");
 	}
-}
+}*/
