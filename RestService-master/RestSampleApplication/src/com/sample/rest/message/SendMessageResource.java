@@ -8,7 +8,7 @@ import java.io.OutputStream;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-import javax.validation.constraints.NotNull;
+//import javax.validation.constraints.NotNull;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
@@ -75,8 +75,8 @@ public class SendMessageResource {
 	@Consumes(MediaType.TEXT_PLAIN)
 	@Produces(MediaType.TEXT_PLAIN)
 	@Path(value = "company/{companyID}/employee/{employeeID}")
-	public String getEmployee (@NotNull @PathParam("companyID") String companyID,
-							   @NotNull @PathParam("employeeID") String employeeID) {
+	public String getEmployee (@PathParam("companyID") String companyID,
+							   @PathParam("employeeID") String employeeID) {
 		System.out.println("Inside getEmployee service");
 		return "companyID " + companyID + " employeeID " + employeeID;
 	}
